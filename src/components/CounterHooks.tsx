@@ -13,6 +13,7 @@ export default function CounterHooks() {
 
   return (
     <Fragment>
+      <h1>Counter Hooks</h1>
       <div>{counter}</div>
       <button onClick={handleDecrementClick}>Decrement</button>
       <button onClick={handleIncrementClick}>Increment</button>
