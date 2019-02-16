@@ -21,11 +21,11 @@ export default class Counter extends Component<{}, State> {
     );
   }
 
-  handleDecrement = () => {
+  private handleDecrement = () => {
     this.setState(({ counter }) => ({ counter: counter - 1 }));
   };
 
-  handleIncrement = () => {
+  private handleIncrement = () => {
     this.setState(({ counter }) => ({ counter: counter + 1 }));
   };
 }
